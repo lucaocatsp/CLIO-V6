@@ -1,0 +1,57 @@
+body {
+    color: rgb(53, 43, 43);
+    background: black;
+    margin: 0;
+    font-family: "Brygada 1918", serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 30px;
+    color: white
+}
+
+.chamada {
+    background: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.texto{
+    margin-right:5%;
+
+
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+
+}
+
+.CATEGORIA-VIDEOS{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+     padding-left: 20px;
+    padding-right 20px ;
+    
+    margin-top: 50px;
+}
+.CATEGORIA-VIDEOS img{
+    opacity: 0.5;
+    height: 315px;}
+
+    .CATEGORIA-VIDEOS img:hover{
+        opacity: 1;
+        border: 2px solid yellow;
+    }
+}
